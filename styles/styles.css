@@ -178,3 +178,27 @@ body {
   font-weight: 400;
   color: var(--text);
 }
+
+@media screen and (max-width: 768px) {
+  .info-box {
+    width: 90px;
+  }
+
+  .description {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .info-wrapper {
+    width: 250px;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 38px;
+  }
+
+  .info-box-modified {
+    width: 220px;
+  }
+}
